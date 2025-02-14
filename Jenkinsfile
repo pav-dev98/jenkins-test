@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Chekout code'){
             steps{
-                git 
+                git 'https://github.com/pav-dev98/jenkins-test.git'
             }
         }
         stage('Install dependencies'){
