@@ -2,6 +2,7 @@ pipeline{
     agent any
     tools{
         git 'Git'
+        nodejs 'NodeJS'
     }
     stages{
         stage('Chekout code'){
